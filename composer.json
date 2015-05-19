@@ -1,0 +1,14 @@
+{
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/console": "3.0.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "PSaunders88\\MathCommand\\": "src/"
+        }
+    }
+}
