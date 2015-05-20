@@ -17,7 +17,7 @@ class MathCommand extends Command
      */
     protected function configure()
     {
-        $this->setName('math:compute')
+        $this->setName('math')
             ->setDescription('Perform the same basic math operation on all of the proivded values')
             ->addArgument(
                 'initialValue',
