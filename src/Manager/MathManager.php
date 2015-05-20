@@ -1,6 +1,6 @@
 <?php
 
-namespace PSaunders88\MathCommand\Math\Manager;
+namespace PSaunders88\MathCommand\Manager;
 
 use PSaunders88\MathCommand\Math\AbstractMath;
 

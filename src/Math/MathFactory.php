@@ -26,13 +26,14 @@ class MathFactory
             case '-':
             case 'subtract':
                 return new Subtract();
-            case '*':
             case 'x':
             case 'multiply:':
                 return new Multiply();
             case '/':
             case 'divide':
                 return new Divide();
+            default:
+                throw new \Exception('Operator '.$type.' not recognised', 500);
         }
     }
 }
