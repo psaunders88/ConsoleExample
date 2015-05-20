@@ -1,7 +1,15 @@
 # ConsoleExample
 Just playing with the symfony2 console component without the full framework. Also making a effort to take testing more seriously
 
+I appriciate that this isn't very useful. It's really more of a personal devlopement exercise 
+
+# Usage
+php application.php math:compute 0 + 1 2 3 4
+Output: 10
+
+php application.php math:compute 10 / 5 2
+Output: 1
+
 #todo
-1. Create factory for math classes
-2. Create Math manager class for performing actual math operations
-3. Create Command for using math classes on the CLI
+1. Write tests for MathCommand (I know I should have tested first)
+2. Write tests for MathManager (See above)
