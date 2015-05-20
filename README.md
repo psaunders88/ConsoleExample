@@ -5,9 +5,11 @@ I appriciate that this isn't very useful. It's really more of a personal devlope
 
 # Usage
 php application.php math:compute 0 + 1 2 3 4
+
 Output: 10
 
 php application.php math:compute 10 / 5 2
+
 Output: 1
 
 #todo
