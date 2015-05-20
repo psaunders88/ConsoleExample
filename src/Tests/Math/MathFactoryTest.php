@@ -20,7 +20,7 @@ class MathFactoryTest extends \PHPUnit_Framework_TestCase
         return [
             ['+', 'PSaunders88\MathCommand\Math\Add'],
             ['-', 'PSaunders88\MathCommand\Math\Subtract'],
-            ['*', 'PSaunders88\MathCommand\Math\Multiply'],
+            ['x', 'PSaunders88\MathCommand\Math\Multiply'],
             ['/', 'PSaunders88\MathCommand\Math\Divide']
         ];
     }
