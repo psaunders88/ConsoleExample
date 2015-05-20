@@ -4,11 +4,11 @@ Just playing with the symfony2 console component without the full framework. Als
 I appriciate that this isn't very useful. It's really more of a personal devlopement exercise 
 
 # Usage
-php application.php math:compute 0 + 1 2 3 4
+php application.php math 0 + 1 2 3 4
 
 Output: 10
 
-php application.php math:compute 10 / 5 2
+php application.php math 10 / 5 2
 
 Output: 1
 
