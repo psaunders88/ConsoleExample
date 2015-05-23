@@ -8,6 +8,9 @@ class Divide extends AbstractMath
      * Given a starting value divide all of the values and return the result
      * 
      * @return integer|float
+     * 
+     * @throws \Exception If any of the numeric values are equal to 0 (Zero)
+     *                    an exception should be thrown
      */
     public function execute()
     {

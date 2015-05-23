@@ -13,11 +13,6 @@ class DivideTest extends \PHPUnit_Framework_TestCase
     {
         $divide = new Divide();
         
-        /**
-         * Todo: If either the inital value or any of the
-         *       items in the $values array are equal to 0 
-         *       we should expect an exception
-         */
         $divide->setInitialValue($initialValue);
         
         foreach ($values as $value) {
@@ -29,6 +24,12 @@ class DivideTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($result, $expectedOutput);
     }
     
+    /**
+     * There are no values set to 0 (zero) in this set
+     * This is because we arn't usnig this set for testing the expection
+     * 
+     * @return array
+     */
     public function getTestExecuteFixtures()
     {
         return [
@@ -54,6 +55,12 @@ class DivideTest extends \PHPUnit_Framework_TestCase
         $divide->execute();
     }
     
+    /**
+     * I've provided a zero in multiple positions to check that 
+     * any of them should throw an exception
+     * 
+     * @return array
+     */
     public function getTestExecuteExceptionFixtures()
     {
         return [
